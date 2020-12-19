@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#background{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:5%;
+    height: 100%;
+    padding: 0 0 25px 0;
+}
+#one i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color:rgb(223, 223, 223);
+    height: 70px;
+    width: 65px;
+    color:  #A2B2A3;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color:rgb(152, 219, 186);
+    height: 50px;
+    width: 65px;
+    color: white;
+    font-weight: 500;
+}
+#two{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+}
+#two i{
+    opacity: 0.7;
+}
+#center{
+    position: relative;
+    width: 40%;
+    height: 100%;   
+    background-image: url(https://images.unsplash.com/photo-1573589234748-2c505a042784?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8Z3JvdW5kJTIwYmVhdXRpZnVsJTIwbGFkeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+}
+#center i{
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%,0%);
+    color: white;
+    opacity: 0.7;
+}
+#right{
+    width: 55%;
+    height: 100%;
+    
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% ;
+    height: 70px;
+    background-color:rgb(223, 223, 223) ;
+    padding-left: 20px;
+}
+#nav a{
+    color: #A2B2A3;
+    text-decoration: none;
+}
+#pop{
+    top: 50%;
+    width: 65px;
+    height: 70px;
+    background-color:#A2B2A3 ;
+}
+#pop i{
+    position: absolute;
+    top:25px;
+    right: 22px;
+    color: white ;
+}
+#chiki{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:45px 35px;
+    width: 100%;
+    height: 88.5%;
+    background-color: rgb(233, 231, 231);
+}
+#minki h5{
+    font-size: 10px;
+    font-weight: 500;
+    opacity: 0.7;
+    color: rgb(150, 179, 152);
+}
+#minki h1{
+    font-weight: 500;
+    margin-top: 30px;
+}
+#minki p{
+    margin-top: 20px;
+    color: #A2B2A3;
+}
+#minki h3{
+    margin-top: 35px ;
+}
+#elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sliderelem{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px 0 3px;
+    width: 500px;
+    height: 100px;
+}
+#Sliderelem h3{
+    padding-left: 100px;
+}
+#lineelem{
+    display: flex;
+    align-items: center;
+    margin: -5px;
+}
+#lineelem #lineone{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(43, 41, 41);
+}
+#circle{
+    font-size: 10px;
+}
+#linetwo{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(165, 162, 162);
+}
+#iconelem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 34%;
+}
+.crcle{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(94, 92, 92);
+}
+.crcl{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+}
+#cone{
+    background-color: rgb(74,183,234);
+}
+#ctwo{
+    background-color: rgb(206,89,75);
+}
+#cthree{
+    background-color: rgb(73,156,100);
+}
+#cfour{
+    background-color: rgb(244,177,64);
+}
+#cfive{
+    background-color: rgb(148,86,234);
+}
+#active{
+    height: 20px;
+    width: 20px;
+    border: 5px solid rgb(244,177,64);
+    box-shadow: 2px 2px 15px rgb(244,177,64);
+}
+#cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 79%;
+    height: 30%;    
+}
+
+#cart i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 25px rgb(189, 189, 189);
+    background-color: rgb(112, 107, 107);
+}
+
+#cartpoko{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color:#A2B2A3 ;
+}
